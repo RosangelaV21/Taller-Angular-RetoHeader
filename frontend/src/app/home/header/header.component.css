@@ -1,0 +1,40 @@
+.headerSpacer{
+    flex:1 1 auto;
+}
+ 
+.dropdown .btn{
+    padding: 1px 28px;
+}
+
+.dropdown .btn a{
+ margin-left: -5px;
+}
+
+mat-icon{
+    margin-top: -3px;
+    margin-left: -2px;
+}
+
+
+
+.login {
+   list-style: none;
+    display: inline-flex;
+}
+
+.login .btn{
+font-size: 10px;
+height: 30px;
+border-color: ivory;
+}
+
+.login li{
+    padding: 5px;
+    padding-top: 25px;
+}
+
+.login li a{
+    text-decoration: none;
+    color: rgb(230, 240, 243);
+}
+

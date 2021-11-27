@@ -1,0 +1,37 @@
+<mat-toolbar>
+  <div class="dropdown">
+    <button class="btn btn-secondary"
+      type="button"
+      id="dropdownMenuButton1"
+      data-bs-toggle="dropdown"
+      aria-expanded="false"
+     > <button mat-icon-button><mat-icon>menu</mat-icon></button>
+   <a>Menu</a>
+    </button>
+ 
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+      <li><a class="dropdown-item" routerLink="saveTask">Create task</a></li>
+      <li><a class="dropdown-item" routerLink="listTask">List task</a></li>
+      <li><a class="dropdown-item" routerLink="listUser">User</a></li>
+      <li><a class="dropdown-item" routerLink="listRole">Role</a></li>
+    </ul>
+  </div>
+
+
+  <span class="headerSpacer"></span>
+  <ul class="login">
+    <li>
+      <button type="button" class="btn ">
+        <a routerLink="register">Sing up</a>
+      </button>
+    </li>
+    <li>
+      <button type="button" class="btn ">
+        <a routerLink="login">Login</a>
+      </button>
+    </li>
+    <li>
+      <button type="button" class="btn "><a>Logout</a></button>
+    </li>
+  </ul>
+</mat-toolbar>
